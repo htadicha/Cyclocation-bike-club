@@ -78,6 +78,13 @@ header a:hover{
     color: #343333;
 
 }
+/* setting up a background image */
+.homepage {
+height: 100vh;
+width: 100%;
+position: relative;
+background: url("../images/camping.jpg") no-repeat top center/cover;
+}
 /* media query mobile fast with screen 560 px and above */
 @media screen and (max-width: 560px) {
     section{
