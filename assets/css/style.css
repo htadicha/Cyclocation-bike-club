@@ -26,5 +26,54 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
-    background: #333;
+    background: #97d4dd;
+}
+/* applied to all header elements to seperate the title of the site from the menu items */
+.navigation{
+    display: flex;
+    padding: 0 10px;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navigation input#nav-toggle{
+    display: none;
+}
+.navigation #hamburger-btn{
+    cursor: pointer;
+    display: none;
+}
+.navigation .title a{
+display: flex;
+align-items: center;
+margin-left: 0;
+}
+
+/* menu items in class links to be displayed in columns */
+.navigation .links{
+    display: flex;
+    align-items: center;
+}
+/* The list items of the navigation to be displayed in line(column instead) */
+.navigation .links li {
+    position: relative;
+    list-style: none;
+    
+}
+header a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #343333;
+    height: 100%;
+    padding: 20px 0;
+}
+/* media query mobile fast with screen 560 px and above */
+@media screen and (max-width: 560px) {
+    section{
+        width: 100%;
+        bottom: 30px;
+    }
+    
 }
