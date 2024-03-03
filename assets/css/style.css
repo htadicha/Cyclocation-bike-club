@@ -38,6 +38,7 @@ header{
     justify-content: space-between;
    
 }
+/* this will help us out our navigation in line */
 .navigation input#nav-toggle{
     display: none;
 }
@@ -62,12 +63,20 @@ margin-left: 0;
     list-style: none;
     
 }
+/* styling the anchor elements in the header section 
+footer section if any should atleast resemble the same as header section for consistency*/
 header a{
     margin-left: 40px;
     text-decoration: none;
-    color: #343333;
+    font-weight: bold;
+    color: #282729;
     height: 100%;
     padding: 20px 0;
+}
+/* setting hover property */
+header a:hover{
+    color: #343333;
+
 }
 /* media query mobile fast with screen 560 px and above */
 @media screen and (max-width: 560px) {
