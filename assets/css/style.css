@@ -42,19 +42,13 @@ header {
 }
 
 /* this will help us out our navigation in line */
-.navigation input#nav-toggle {
+.navigation input#nav-toggler {
     display: none;
 }
 
 .navigation #hamburger-btn {
     cursor: pointer;
     display: none;
-}
-
-.navigation .title a {
-    display: flex;
-    align-items: center;
-    margin-left: 0;
 }
 
 /* menu items in class links to be displayed in columns */
@@ -68,6 +62,11 @@ header {
     position: relative;
     list-style: none;
 
+}
+.navigation .title a {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
 }
 
 /* styling the anchor elements in the header section 
@@ -202,9 +201,28 @@ text-align: center;
 /* .portifolio .square-boxes .square-box{
     padding: 0 0 20px;
 } */
+.services .square-box img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.portifolio .square-box img {
+width: 120px;
+padding-bottom: 10px;
+aspect-ratio: 19 / 2;
+object-fit: cover;
+border-radius: 7px;
+}
+
+.square-boxes .square-box p {
+padding: 0 15px;
+margin-top: 5px;
+}
 /* media query mobile fast with screen 560 px and above */
 @media screen and (max-width: 560px) {
-    section {
+    section .square-boxes .square-box{
         width: 100%;
         bottom: 30px;
     }
@@ -246,5 +264,21 @@ text-align: center;
     section>p {
         text-align: center;
     }
+ section .square-boxes .square-box{
+    width: calc(100%/2 - 15px);
+    margin-bottom: 30px;
+ }
+ .headerpage .content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+ .headerpage .content .text{
+    font-size: 17px;
+ }
+.content a{
+    font-size: 17px;
+    padding: 9px 20px;
+}
 
 }
