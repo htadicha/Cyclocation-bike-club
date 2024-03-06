@@ -88,14 +88,14 @@ header a:hover {
 }
 
 /* setting up a background image */
-.homepage {
+.headerpage {
     height: 100vh;
     width: 100%;
     position: relative;
     background: url("../images/background2.jpg") no-repeat top center/cover;
 }
 
-.homepage::before {
+.headerpage::before {
     content: "";
     position: absolute;
     left: 0;
@@ -104,7 +104,7 @@ header a:hover {
     width: 100%;
 }
 
-.homepage .content {
+.headerpage .content {
     display: flex;
     height: 85%;
     z-index: 3;
@@ -113,26 +113,38 @@ header a:hover {
     flex-direction: column;
 }
 
-.homepage .content h1 {
-    font-size: 60px;
+.headerpage .content h1 {
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 10px;
+    color: #fafafa;
+    text-align: center;
+    text-decoration: solid;
 
 }
 
-.homepage .content .text {
+.headerpage .content p {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 10px;
+    color: #fafafa;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 3em;
+
+}
+
+/* .headerpage .content .text {
     margin-bottom: 50px;
     color: #fafafa;
     font-size: 20px;
     text-align: center;
-    text-shadow: 0px 0px 10px rgba(241, 234, 234, 0.958);
-    text-align: center;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-}
+    text-shadow: 0px 0px 10px rgba(241, 234, 234, 0.958);
+} */
 
 .content a {
     color: #000;
@@ -169,7 +181,27 @@ section h2 {
 section p {
     text-align: center;
 }
-
+section .square-boxes{
+display: flex;
+padding: 0 10px;
+flex-wrap: wrap;
+margin-top: 50px;
+max-width: 1200px;
+justify-content: space-between;
+}
+/* content for other section might come here */
+section .square-boxes .square-box{
+background: #fafafa;
+list-style: none;
+border-radius: 4px;
+padding: 40px 15px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+width: calc(33.33% - 30px);
+text-align: center;
+}
+/* .portifolio .square-boxes .square-box{
+    padding: 0 0 20px;
+} */
 /* media query mobile fast with screen 560 px and above */
 @media screen and (max-width: 560px) {
     section {
@@ -203,11 +235,14 @@ section p {
     .navbar #hamburger-btn {
         display: block;
     }
-.homepage.content .h1{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
+
+    .headerpage.content .h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-decoration: solid;
+    }
+
     section>p {
         text-align: center;
     }
