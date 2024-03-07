@@ -193,6 +193,19 @@ section .about{
 margin: 0 auto;
 max-width: 1200px;
 }
+.about .our-info{
+    margin-top: 30px;
+}
+.about h3{
+    margin:  30px 0 10 px;
+}
+.about .founders{
+    text-align: left;
+    width: 100%;
+}
+.about .founders ul{
+    padding-left: 20px;
+}
 /* content for other section might come here */
 section .square-boxes .square-box {
     background: #fafafa;
@@ -227,7 +240,12 @@ section .square-boxes .square-box {
     padding: 0 15px;
     margin-top: 5px;
 }
-
+.about .align{
+    padding: 0 10px;
+}
+.contact .align .align2{
+    
+}
 /* media query mobile fast with screen 560 px and above */
 @media screen and (max-width: 560px) {
     section .square-boxes .square-box {
