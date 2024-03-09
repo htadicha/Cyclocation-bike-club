@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* setting html scrolling styles to smooth to ensure easing user defined scrolling(scrolls when scorller is triggered */
@@ -27,15 +27,16 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    background: #343333;
+    background: #333433;
 }
 
 /* applied to all header elements to seperate the title of the site from the menu items */
 .navigation {
     display: flex;
     padding: 0 10px;
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 
@@ -119,9 +120,9 @@ footer a:hover {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 10px;
-    /* color: #fafafa;
+    color: #fafafa;
     text-align: center;
-    text-decoration: solid; */
+    text-decoration: solid;
 
 }
 
@@ -146,14 +147,14 @@ footer a:hover {
 }
 
 .content a {
-    color: #000;
+    color: #020101;
     display: block;
     text-transform: uppercase;
     font-size: 18px;
     margin: 0 10px;
     padding: 10px 30px;
     border-radius: 5px;
-    background: #fafafa;
+    background: #fefefe;
     border: 2px solid #fafafa;
     transition: 0.4s ease;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
@@ -167,17 +168,17 @@ footer a:hover {
 
 /* making all the section element to be in column and in center */
 section {
-    padding: 80px 0 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    padding: 80px 0 0;
 }
 
 section h2 {
     font-size: 2rem;
 }
 
-section>p {
+section > p {
     text-align: center;
 }
 
@@ -193,6 +194,7 @@ section .square-boxes {
 section .about {
     margin: 0 auto;
     max-width: 1200px;
+    
 }
 
 .about .our-info {
@@ -201,8 +203,22 @@ section .about {
 
 .about h3 {
     margin: 30px 0 10 px;
+    line-height: 2;
 }
 
+.about .our-info {
+    text-align: left;
+    width: 100%;
+}
+.about .our-vision-mission {
+    text-align: left;
+    width: 100%;
+    
+}
+.about .our-info {
+    text-align: left;
+    width: 100%;
+}
 .about .founders {
     text-align: left;
     width: 100%;
@@ -215,15 +231,16 @@ section .about {
 /* content for other section might come here */
 section .square-boxes .square-box {
     background: #fafafa;
+    padding: 40px 15px;
     list-style: none;
     border-radius: 4px;
-    padding: 40px 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
-    width: calc(33.33% - 30px);
+    margin-bottom:  40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    width: calc(100% / 3 - 30px);
     text-align: center;
 }
 
-/* .portifolio .square-boxes .square-box{
+/* .portfolio .square-boxes .square-box{
     padding: 0 0 20px;
 } */
 .services .square-box img {
@@ -231,13 +248,14 @@ section .square-boxes .square-box {
     height: 120px;
     margin-bottom: 20px;
     border-radius: 100%;
-    object-fit: cover;
+    /* object-fit: contain; */
 }
 
-.portifolio .square-box img {
-    width: 120px;
+.portfolio .square-box img {
+    width: 100%;
+    /* height: 150px; */
     padding-bottom: 10px;
-    aspect-ratio: 19 / 2;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 7px;
 }
@@ -261,7 +279,7 @@ section .square-boxes .square-box {
 /* align is row level alignment and align2 is a column level alignment */
 .contact .align .align2 {
     padding: 0 10px;
-    width: calc(100%/2 - 50px);
+    width: calc(100% / 2 - 50px);
 }
 
 .contact .align2 {
@@ -271,6 +289,7 @@ section .square-boxes .square-box {
 .contact .align2 p i {
     color: #9c9a9a;
     margin-right: 10px;
+    line-height: 2;
 }
 
 .contact form input {
@@ -333,7 +352,7 @@ footer a{
 
 /* media query for 860px and above */
 @media screen and (max-width:860px) {
-    .navigation.links {
+    .navigation .links {
         position: fixed;
         left: -100%;
         width: 300px;
@@ -344,18 +363,18 @@ footer a{
         transition: left 0.3s ease;
     }
 
-    navbar #menu-toggler:checked~.links {
+    .navigation #nav-toggler:checked~.links {
         left: 0;
     }
 
-    .navbar .links li {
+    .navigation .links li {
         font-size: 18px;
     }
 
-    .navbar #hamburger-btn {
+    .navigation #hamburger-btn {
         display: block;
     }
-    section>p {
+    section > p {
         text-align: center;
     }
 
@@ -397,7 +416,7 @@ footer a{
 @media screen and (max-width: 560px) {
     section .square-boxes .square-box {
         width: 100%;
-        bottom: 30px;
+        margin-bottom: 30px;
     }
 
 }
