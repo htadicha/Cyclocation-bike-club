@@ -95,7 +95,7 @@ footer a:hover {
     height: 100vh;
     width: 100%;
     position: relative;
-    background: url("../images/background2.jpg") no-repeat top center/cover;
+    background: url("../images/background3.jpg") no-repeat top center/cover;
 }
 
 .headerpage::before {
@@ -202,7 +202,7 @@ section .about {
 }
 
 .about h3 {
-    margin: 30px 0 10 px;
+    margin: 30px 0 10px;
     line-height: 2;
 }
 
@@ -240,9 +240,9 @@ section .square-boxes .square-box {
     text-align: center;
 }
 
-/* .portfolio .square-boxes .square-box{
+.portfolio .square-boxes .square-box{
     padding: 0 0 20px;
-} */
+}
 .services .square-box img {
     width: 120px;
     height: 120px;
