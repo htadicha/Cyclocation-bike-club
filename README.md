@@ -8,7 +8,7 @@ At Cyclocation, we're dedicated to providing more than just a bike rental servic
 
 Embrace the thrill of exploration, connect with fellow enthusiasts, and contribute to a greener world with our eco-conscious practices. Whether you're a seasoned cyclist or just starting out, Cyclocation welcomes you to a community where adventure knows no bounds."
 
-![Responsive Image](<img width="1072" alt="Screenshot 2024-03-13 at 16 04 13" src="https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/60c039a7-ec02-4d43-b3b5-021a9bc977a4">)
+![Responsive Image](https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/60c039a7-ec02-4d43-b3b5-021a9bc977a4)
 
 
 ## Features
