@@ -219,14 +219,6 @@ section .about {
     text-align: left;
     width: 100%;
 }
-.about .founders {
-    text-align: left;
-    width: 100%;
-}
-
-.about .founders ul {
-    padding-left: 20px;
-}
 
 /* content for other section might come here */
 section .square-boxes .square-box {
