@@ -1,6 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-<u>Cyclocation</u>,
+# Cyclocation 
+This was an inspiration from the Love running club projects done during the training - because of my love for cycling i though of coming up with this as my portifolio project.
 
 This is one of its kind in providing cycling not just for the mere of biking but connecting it with an adventure.
 welcome to cyclocation, where you will discover a world where biking is just a mode of transportation but a way of life.
@@ -8,36 +8,15 @@ At Cyclocation, we're dedicated to providing more than just a bike rental servic
 
 Embrace the thrill of exploration, connect with fellow enthusiasts, and contribute to a greener world with our eco-conscious practices. Whether you're a seasoned cyclist or just starting out, Cyclocation welcomes you to a community where adventure knows no bounds."
 
+![Responsive](<img width="1072" alt="Screenshot 2024-03-13 at 16 04 13" src="https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/b60bdd4f-99ae-4438-8fcc-948f5d24b839">)
 
 
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## Features
+ ### header page
+ #### Title and Navigation
+### background image
+### Our services section
+### why The reason to choose us section
+### Section for about us
+### Contact Information section
+### Footer section

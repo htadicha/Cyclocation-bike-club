@@ -31,6 +31,7 @@ header {
 }
 
 /* applied to all header elements to seperate the title of the site from the menu items */
+/* This was taken from training materials in the css section for styling */
 .navigation {
     display: flex;
     padding: 0 10px;
@@ -43,6 +44,7 @@ header {
 }
 
 /* this will help us out our navigation in line */
+/* taken from love running project and edited to meet my projects specification */
 .navigation input#nav-toggler {
     display: none;
 }
