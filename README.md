@@ -1,10 +1,14 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+<u>Cyclocation</u>,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is one of its kind in providing cycling not just for the mere of biking but connecting it with an adventure.
+welcome to cyclocation, where you will discover a world where biking is just a mode of transportation but a way of life.
+At Cyclocation, we're dedicated to providing more than just a bike rental service - we're here to elevate your entire biking experience. Our carefully curated routes, personalized guidance, and cyclist-friendly accommodations ensure that every aspect of your journey is tailored to perfection.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Embrace the thrill of exploration, connect with fellow enthusiasts, and contribute to a greener world with our eco-conscious practices. Whether you're a seasoned cyclist or just starting out, Cyclocation welcomes you to a community where adventure knows no bounds."
+
+
 
 ## Codeanywhere Reminders
 
