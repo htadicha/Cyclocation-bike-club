@@ -45,11 +45,11 @@ header {
 
 /* this will help us out our navigation in line */
 /* taken from love running project and edited to meet my projects specification */
-.navigation input#nav-toggler {
+.navigation input#tognav {
     display: none;
 }
 
-.navigation #hamburger-btn {
+.navigation #btn-humb {
     cursor: pointer;
     display: none;
 }
@@ -358,7 +358,7 @@ footer a{
         transition: left 0.3s ease;
     }
 
-    .navigation #nav-toggler:checked~.links {
+    .navigation #tognav:checked~.links {
         left: 0;
     }
 
@@ -366,7 +366,7 @@ footer a{
         font-size: 18px;
     }
 
-    .navigation #hamburger-btn {
+    .navigation #btn-humb {
         display: block;
     }
     section > p {

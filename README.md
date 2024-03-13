@@ -8,15 +8,27 @@ At Cyclocation, we're dedicated to providing more than just a bike rental servic
 
 Embrace the thrill of exploration, connect with fellow enthusiasts, and contribute to a greener world with our eco-conscious practices. Whether you're a seasoned cyclist or just starting out, Cyclocation welcomes you to a community where adventure knows no bounds."
 
-![Responsive](<img width="1072" alt="Screenshot 2024-03-13 at 16 04 13" src="https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/b60bdd4f-99ae-4438-8fcc-948f5d24b839">)
+![Responsive Image](<img width="1072" alt="Screenshot 2024-03-13 at 16 04 13" src="https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/60c039a7-ec02-4d43-b3b5-021a9bc977a4">)
 
 
 ## Features
- ### header page
+ ### The landing page
  #### Title and Navigation
-### background image
+ #### background image of the landing page
 ### Our services section
 ### why The reason to choose us section
 ### Section for about us
 ### Contact Information section
 ### Footer section
+ ## Feature left to impliment
+ ## Testing
+ ## Validator  Testing
+ ## Unified fixed bugs
+ ## Deployment
+ ## Credits
+![This helped me a big time](https://www.youtube.com/watch?v=a_iQb1lnAEQ)  
+ ## Content
+ ## Media
+ ## Other  general Project Advice
+
+
