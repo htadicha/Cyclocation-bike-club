@@ -96,15 +96,21 @@ About us section provides users with our story and connecting use and the users 
     -  No error were returned when passing through the official [W3C validator]
 - CSS
   - No erros were returned when passing through the official [W3C CSS Validator (Jigsaw)]
- ## Unified fixed bugs
+### manual tests
+### The lighthouse tests
+
+ ## Unfixed bugs
  ## Deployment
+
  ## Credits
  
  - Thanks to FreecodeCamp [This youtube](https://www.youtube.com/watch?v=a_iQb1lnAEQ) Video helped me imensely. It is a bigginer 5 hours comprehensive learning courses that is very helpful and helped me in preparing the projects.
  - part of css elements are taken from the [w3 sites](https://www.w3.org/TR/2015/WD-SVG2-20150915/single-page.html).
-
- ## Content
- ## Media
+ - Most css are taken from [Stackoverflow]
+ -  css for boxes  are taken from [coding Nepal](https://www.codingnepalweb.com/create-responsive-cards-in-html-css/)
+ - humburger buttin taken from [w3 sites](https://www.w3.org/TR/SVG2/struct.html#:~:text=An%20'xmlns'%20attribute%20without%20a,80%22%20height%3D%2280%22)
+ ### Content
+ ### Media
 
  ## Other  general Project Advice
 hand written during class work was one of the best practive i found it to be very useful. 
