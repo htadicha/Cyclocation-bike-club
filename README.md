@@ -74,12 +74,26 @@ About us section provides users with our story and connecting use and the users 
 ![our story](https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/a88cb5e9-f87b-4896-89da-e78744b10b4f)
 
 ### Contact Information section
+- This section will allow the user to get to connect with us to start their journey of exploration.
+- They will be able to call us, connect with us on our email and pop in for signup and will also be able to ask specific messages about our services.
+
 ![contact information](https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/52cd77a7-59c5-43e7-9db7-cd327c1f088c)
+
 ### Footer section
+- The footer section includes copy rights information and a link to the home section to toggle back to the home section.
+-  
 ![footer section](https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/ef1cb34d-c9c1-4b43-9490-f86276384369)
  ## Feature left to impliment
+ - signup section 
+ - Include social media handles
+ - Include payment validation
  ## Testing
- ## Validator  Testing
+ -  Testing helps identify and rectify bugs, glitches, and technical issues that could negatively impact user experience or site functionality.
+ - It helps in optimizing performance by identiying areas for improvements such as slow loading times or inefficient code.
+ - testing ensures compatibilty across different devices and and screen sizes. 
+ ## Validator Testing
+ - HTML
+    -  No error were found returned when passing through the official [W3C validator]()
  ## Unified fixed bugs
  ## Deployment
  ## Credits
