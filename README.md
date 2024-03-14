@@ -93,7 +93,9 @@ About us section provides users with our story and connecting use and the users 
  - testing ensures compatibilty across different devices and and screen sizes. 
  ## Validator Testing
  - HTML
-    -  No error were found returned when passing through the official [W3C validator]()
+    -  No error were returned when passing through the official [W3C validator]
+- CSS
+  - No erros were returned when passing through the official [W3C CSS Validator (Jigsaw)]()
  ## Unified fixed bugs
  ## Deployment
  ## Credits
