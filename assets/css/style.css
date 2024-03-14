@@ -75,6 +75,7 @@ header {
 
 /* styling the anchor elements in the header section 
 footer section if any should atleast resemble the same as header section for consistency*/
+/* take from stackoverflow and edited to meet my projects specification */
 header a,
 footer a {
     margin-left: 40px;

@@ -93,14 +93,49 @@ About us section provides users with our story and connecting use and the users 
  - testing ensures compatibilty across different devices and and screen sizes. 
  ### Validator Testing
  - HTML
-    -  No error were returned when passing through the official [W3C validator]
+    -  No error were returned when passing through the official [W3C validator](https://validator.w3.org/nu/) when direct text is used.
 - CSS
-  - No erros were returned when passing through the official [W3C CSS Validator (Jigsaw)]
-### manual tests
+  - No erros were returned when passing through the official [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/) by using direct text.
+  ### Manual testing
+#### Browser Compatibility
+
+1. <strong>Google Chrome:</strong>	No issues with appearance, responsiveness, or functionality.
+2. <strong>Safari:</strong> No issues with appearance, responsiveness, or functionality.
+3. <strong>Mozilla Firefox:</strong> No issues with appearance, responsiveness, or functionality.
+4. <strong>Microsoft Edge:</strong>	No issues with appearance, responsiveness, or functionality.
+
+####  Device Compatibility
+
+1. <strong>MacBook Pro 13":</strong>No issues with appearance, responsiveness, or functionality.
+2. <strong>iPhone 13 Mini</strong>	No issues with appearance, responsiveness, or functionality.
+3. <strong>iPad 9th Generation:</strong>	No issues with appearance, responsiveness, or functionality.
+4. <strong>Iphone 14:</strong> No issues with appearance, responsiveness, or functionality.
+
 ### The lighthouse tests
+Google Lighthouse in Microsoft Edge Developer Tools was used to test performance, accessibility, best practices and SEO (Search Engine Optimization) of the website.
+
+![lighthouse results](https://github.com/htadicha/Cyclocation-bike-club/assets/57531304/a6f954c5-80e0-4c8d-946a-1b95bded10ec)
+## Technologies used
+ - HTML
+ - css
+ ## Frame work used
+ - Google Fonts
+ - Git
+ - GitHub
+ - VScode
+ - Font Awsome
+ - Am I Responsive?
+ - Flaticon
+ - Youtube
 
  ## Unfixed bugs
+ - Contrast error found and wasn't fixed bacause it wasn't a major issues that affects the functionality of the site.
  ## Deployment
+ - he site was deployed to GitHub pages. The steps to deploy are as follows:
+   - In the GitHub repository, navigate to the Settings tab
+   - From the source section drop-down menu, select the Master Branch
+   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found [here](https://htadicha.github.io/Cyclocation-bike-club/) 
 
  ## Credits
  
@@ -109,8 +144,28 @@ About us section provides users with our story and connecting use and the users 
  - Most css are taken from [Stackoverflow]
  -  css for boxes  are taken from [coding Nepal](https://www.codingnepalweb.com/create-responsive-cards-in-html-css/)
  - humburger buttin taken from [w3 sites](https://www.w3.org/TR/SVG2/struct.html#:~:text=An%20'xmlns'%20attribute%20without%20a,80%22%20height%3D%2280%22)
- ### Content
+ - googling combination of [googling](https://alvarotrigo.com/blog/hamburger-menu-css/) and chatGPT 
+ - part of css from [stackoverfflow](https://stackoverflow.com/questions/46093353/header-margin-is-pushing-div-with-background-image)
+
+ ## Content
  ### Media
+ No video used in the site
+ #### Images
+ All images are free and taken from  [pexel](https://www.pexels.com/)
+ #
+ #### Codes
+  - css elements taken from previous class exercises
+  - Some of the css and HTML elementare taken from [this](https://www.youtube.com/watch?v=j7GG009J9uc)
+  - part of css from [stackoverfflow](https://stackoverflow.com/questions/46093353/header-margin-is-pushing-div-with-background-image)
+  - part of css elements are taken from the [w3 sites](https://www.w3.org/TR/2015/WD-SVG2-20150915/single-page.html).
+ -  css are taken from for boxes and sections [Stackoverflow]
+
+  ## Acknowledgements
+I would like to thank:
+
+1. My mentor Can Sücüllü for his feedback, advice and guidance;
+2. Code Institute Slack Community for providing help, support, small talk and peer reviews, in particular:
+3. All the CodeInstitute instructors for their comprehensive training and for the tailored made material that enhanced my understanding of the module.
 
  ## Other  general Project Advice
 hand written during class work was one of the best practive i found it to be very useful. 
