@@ -91,11 +91,11 @@ About us section provides users with our story and connecting use and the users 
  -  Testing helps identify and rectify bugs, glitches, and technical issues that could negatively impact user experience or site functionality.
  - It helps in optimizing performance by identiying areas for improvements such as slow loading times or inefficient code.
  - testing ensures compatibilty across different devices and and screen sizes. 
- ## Validator Testing
+ ### Validator Testing
  - HTML
     -  No error were returned when passing through the official [W3C validator]
 - CSS
-  - No erros were returned when passing through the official [W3C CSS Validator (Jigsaw)]()
+  - No erros were returned when passing through the official [W3C CSS Validator (Jigsaw)]
  ## Unified fixed bugs
  ## Deployment
  ## Credits
